@@ -1,0 +1,2 @@
+set(cv_apriltag_MESSAGE_FILES "msg/camera_pos.msg")
+set(cv_apriltag_SERVICE_FILES "")

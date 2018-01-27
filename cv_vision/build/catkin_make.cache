@@ -1,0 +1,2 @@
+apdriver:april_pic:april_pro:arinfo:robot_vision:uart
+-DCATKIN_DEVEL_PREFIX=/home/odroid/cv_vision/devel -DCMAKE_INSTALL_PREFIX=/home/odroid/cv_vision/install -G Unix Makefiles

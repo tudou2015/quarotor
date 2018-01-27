@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/circle.dir/src/circle.cpp.o  -o /home/odroid/cv_vision/devel/lib/april_pro/circle  -L/usr/local/lib -rdynamic -lcam -lapriltag -Wl,-rpath,/usr/local/lib 

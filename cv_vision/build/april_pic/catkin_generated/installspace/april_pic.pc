@@ -1,0 +1,8 @@
+prefix=/home/odroid/cv_vision/install
+
+Name: april_pic
+Description: Description of april_pic
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/odroid/cv_vision/install/lib 
+Requires: 

@@ -1,0 +1,2 @@
+set(cv_apriltag_MESSAGE_FILES "/home/odroid/cv_vision/src/cv_apriltag/msg/camera_pos.msg")
+set(cv_apriltag_SERVICE_FILES "")

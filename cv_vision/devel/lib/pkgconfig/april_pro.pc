@@ -1,0 +1,8 @@
+prefix=/home/odroid/cv_vision/devel
+
+Name: april_pro
+Description: Description of april_pro
+Version: 0.0.0
+Cflags: -I/home/odroid/cv_vision/devel/include -I/home/odroid/cv_vision/src/april_pro/./
+Libs: -L/home/odroid/cv_vision/devel/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/odroid/cv_vision/install
+
+Name: usb_cam
+Description: Description of usb_cam
+Version: 0.3.6
+Cflags: -I/home/odroid/cv_vision/install/include
+Libs: -L/home/odroid/cv_vision/install/lib -lusb_cam
+Requires: 

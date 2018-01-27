@@ -1,0 +1,8 @@
+prefix=/home/odroid/cv_vision/install
+
+Name: uart
+Description: Description of uart
+Version: 0.0.0
+Cflags: -I/home/odroid/cv_vision/install/include
+Libs: -L/home/odroid/cv_vision/install/lib 
+Requires: message_runtime

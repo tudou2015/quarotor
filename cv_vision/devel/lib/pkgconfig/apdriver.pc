@@ -1,0 +1,8 @@
+prefix=/home/odroid/cv_vision/devel
+
+Name: apdriver
+Description: Description of apdriver
+Version: 0.0.0
+Cflags: -I/home/odroid/cv_vision/devel/include
+Libs: -L/home/odroid/cv_vision/devel/lib 
+Requires: 

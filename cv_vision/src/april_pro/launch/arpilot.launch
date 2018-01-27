@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<launch>
+  <param name="portNumber" value="0" type="int" />
+ <!-- <node pkg="april_pro" type="process" name="process"/>-->
+  <node pkg="april_pic" type="send_pic" name="send_pic"
+        output="screen" respawn="true"/>
+  <node pkg="uart" type="uart" name="uart"/> 
+  <node pkg="apdriver" type="apdriver" name="apdriver"/> 
+  <node pkg="robot_vision" type="CircleControl" name="CircleControl"/>
+<!-- <node pkg="robot_vision" type="MainControl" name="MainControl"/> -->
+<node pkg="robot_vision" type="circle" name="circle"/>
+  <node pkg="arinfo" type="arinfo" name="arinfo"/> 
+<!--  <node pkg="arimu" type="arimu" name="arimu"/> -->
+</launch>
+

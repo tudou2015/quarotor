@@ -1,0 +1,178 @@
+[ rosmake ] rosmake starting...                                                 
+[ rosmake ] No package specified.  Building ['april_pro']                       
+[ rosmake ] Packages requested are: ['april_pro']                               
+[ rosmake ] Logging to directory /home/odroid/.ros/rosmake/rosmake_output-20170809-144452
+[ rosmake ] Expanded args ['april_pro'] to:
+['april_pro']                       
+[rosmake-0] Starting >>> catkin [ make ]                                        
+[rosmake-0] Finished <<< catkin ROS_NOBUILD in package catkin
+ No Makefile in package catkin
+[rosmake-6] Starting >>> cmake_modules [ make ]                                 
+[rosmake-0] Starting >>> genmsg [ make ]                                        
+[rosmake-3] Starting >>> rosgraph [ make ]                                      
+[rosmake-7] Starting >>> cpp_common [ make ]                                    
+[ rosmake ] [ make ] [ cmake_modules: 0.0 sec ] [ ... [ 4 Active 1/56 Complete ][rosmake-0] Finished <<< genmsg ROS_NOBUILD in package genmsg
+ No Makefile in package genmsg
+[rosmake-2] Starting >>> rosclean [ make ]                                      
+[rosmake-7] Finished <<< cpp_common ROS_NOBUILD in package cpp_common
+ No Makefile in package cpp_common
+[rosmake-4] Starting >>> opencv3 [ make ]                                       
+[rosmake-3] Finished <<< rosgraph ROS_NOBUILD in package rosgraph
+ No Makefile in package rosgraph
+[rosmake-6] Finished <<< cmake_modules ROS_NOBUILD in package cmake_modules
+ No Makefile in package cmake_modules
+[rosmake-5] Starting >>> rosbash [ make ]                                       
+[rosmake-1] Starting >>> genlisp [ make ]                                       
+[rosmake-2] Finished <<< rosclean ROS_NOBUILD in package rosclean
+ No Makefile in package rosclean
+[rosmake-7] Starting >>> genpy [ make ]                                         
+[rosmake-0] Starting >>> rospack [ make ]                                       
+[rosmake-3] Starting >>> gencpp [ make ]                                        
+[rosmake-6] Starting >>> geneus [ make ]                                        
+[rosmake-2] Starting >>> gennodejs [ make ]                                     
+[rosmake-5] Finished <<< rosbash ROS_NOBUILD in package rosbash
+ No Makefile in package rosbash
+[rosmake-5] Starting >>> rostime [ make ]                                       
+[rosmake-1] Finished <<< genlisp ROS_NOBUILD in package genlisp
+ No Makefile in package genlisp
+[rosmake-1] Starting >>> roslang [ make ]                                       
+[rosmake-7] Finished <<< genpy ROS_NOBUILD in package genpy
+ No Makefile in package genpy
+[rosmake-7] Starting >>> xmlrpcpp [ make ]                                      
+[rosmake-2] Finished <<< gennodejs ROS_NOBUILD in package gennodejs
+ No Makefile in package gennodejs
+[rosmake-2] Starting >>> rosparam [ make ]                                      
+[rosmake-3] Finished <<< gencpp ROS_NOBUILD in package gencpp
+ No Makefile in package gencpp
+[rosmake-3] Starting >>> rosmaster [ make ]                                     
+[rosmake-6] Finished <<< geneus ROS_NOBUILD in package geneus
+ No Makefile in package geneus
+[rosmake-6] Starting >>> message_generation [ make ]                            
+[ rosmake ] [ make ] [ opencv3: 0.1 sec ] [ rospa... [ 8 Active 12/56 Complete ][rosmake-1] Finished <<< roslang ROS_NOBUILD in package roslang
+ No Makefile in package roslang
+[rosmake-5] Finished <<< rostime ROS_NOBUILD in package rostime
+ No Makefile in package rostime
+[rosmake-1] Starting >>> class_loader [ make ]                                  
+[rosmake-2] Finished <<< rosparam ROS_NOBUILD in package rosparam
+ No Makefile in package rosparam
+[rosmake-5] Starting >>> roscpp_traits [ make ]                                 
+[rosmake-2] Starting >>> smclib [ make ]                                        
+[rosmake-7] Finished <<< xmlrpcpp ROS_NOBUILD in package xmlrpcpp
+ No Makefile in package xmlrpcpp
+[rosmake-3] Finished <<< rosmaster ROS_NOBUILD in package rosmaster
+ No Makefile in package rosmaster
+[rosmake-0] Finished <<< rospack ROS_NOBUILD in package rospack
+ No Makefile in package rospack
+[rosmake-4] Finished <<< opencv3 ROS_NOBUILD in package opencv3
+ No Makefile in package opencv3
+[rosmake-6] Finished <<< message_generation ROS_NOBUILD in package message_generation
+ No Makefile in package message_generation
+[rosmake-0] Starting >>> roslib [ make ]                                        
+[rosmake-5] Finished <<< roscpp_traits ROS_NOBUILD in package roscpp_traits
+ No Makefile in package roscpp_traits
+[rosmake-2] Finished <<< smclib ROS_NOBUILD in package smclib
+ No Makefile in package smclib
+[rosmake-3] Starting >>> roscpp_serialization [ make ]                          
+[rosmake-0] Finished <<< roslib ROS_NOBUILD in package roslib
+ No Makefile in package roslib
+[rosmake-1] Finished <<< class_loader ROS_NOBUILD in package class_loader
+ No Makefile in package class_loader
+[rosmake-0] Starting >>> rosunit [ make ]                                       
+[rosmake-3] Finished <<< roscpp_serialization ROS_NOBUILD in package roscpp_serialization
+ No Makefile in package roscpp_serialization
+[ rosmake ] [ make ] [ roscpp_serialization: 0.1 ... [ 2 Active 24/56 Complete ][rosmake-0] Finished <<< rosunit ROS_NOBUILD in package rosunit
+ No Makefile in package rosunit
+[rosmake-3] Starting >>> message_runtime [ make ]                               
+[rosmake-0] Starting >>> roslz4 [ make ]                                        
+[rosmake-0] Finished <<< roslz4 ROS_NOBUILD in package roslz4
+ No Makefile in package roslz4
+[rosmake-3] Finished <<< message_runtime ROS_NOBUILD in package message_runtime
+ No Makefile in package message_runtime
+[rosmake-0] Starting >>> rosbag_storage [ make ]                                
+[rosmake-3] Starting >>> std_msgs [ make ]                                      
+[rosmake-4] Starting >>> rosbuild [ make ]                                      
+[rosmake-1] Starting >>> std_srvs [ make ]                                      
+[rosmake-4] Finished <<< rosbuild ROS_NOBUILD in package rosbuild
+ No Makefile in package rosbuild
+[rosmake-0] Finished <<< rosbag_storage ROS_NOBUILD in package rosbag_storage
+ No Makefile in package rosbag_storage
+[rosmake-3] Finished <<< std_msgs ROS_NOBUILD in package std_msgs
+ No Makefile in package std_msgs
+[rosmake-4] Starting >>> rosconsole [ make ]                                    
+[rosmake-0] Starting >>> rosgraph_msgs [ make ]                                 
+[rosmake-5] Starting >>> geometry_msgs [ make ]                                 
+[rosmake-7] Starting >>> bond [ make ]                                          
+[rosmake-1] Finished <<< std_srvs ROS_NOBUILD in package std_srvs
+ No Makefile in package std_srvs
+[ rosmake ] [ make ] [ rosconsole: 0.0 sec ] [ ro... [ 4 Active 32/56 Complete ][rosmake-5] Finished <<< geometry_msgs ROS_NOBUILD in package geometry_msgs
+ No Makefile in package geometry_msgs
+[rosmake-5] Starting >>> sensor_msgs [ make ]                                   
+[rosmake-7] Finished <<< bond ROS_NOBUILD in package bond
+ No Makefile in package bond
+[rosmake-0] Finished <<< rosgraph_msgs ROS_NOBUILD in package rosgraph_msgs
+ No Makefile in package rosgraph_msgs
+[rosmake-4] Finished <<< rosconsole ROS_NOBUILD in package rosconsole
+ No Makefile in package rosconsole
+[rosmake-4] Starting >>> roscpp [ make ]                                        
+[rosmake-3] Starting >>> pluginlib [ make ]                                     
+[rosmake-5] Finished <<< sensor_msgs ROS_NOBUILD in package sensor_msgs
+ No Makefile in package sensor_msgs
+[ rosmake ] [ make ] [ roscpp: 0.1 sec ] [ plugin... [ 2 Active 37/56 Complete ][rosmake-3] Finished <<< pluginlib ROS_NOBUILD in package pluginlib
+ No Makefile in package pluginlib
+[rosmake-4] Finished <<< roscpp ROS_NOBUILD in package roscpp
+ No Makefile in package roscpp
+[rosmake-4] Starting >>> rosout [ make ]                                        
+[rosmake-3] Starting >>> rospy [ make ]                                         
+[rosmake-2] Starting >>> camera_calibration_parsers [ make ]                    
+[rosmake-7] Starting >>> bondcpp [ make ]                                       
+[rosmake-4] Finished <<< rosout ROS_NOBUILD in package rosout
+ No Makefile in package rosout
+[rosmake-4] Starting >>> roslaunch [ make ]                                     
+[rosmake-3] Finished <<< rospy ROS_NOBUILD in package rospy
+ No Makefile in package rospy
+[ rosmake ] [ make ] [ camera_calibration_parsers... [ 3 Active 41/56 Complete ][rosmake-2] Finished <<< camera_calibration_parsers ROS_NOBUILD in package camera_calibration_parsers
+ No Makefile in package camera_calibration_parsers
+[rosmake-7] Finished <<< bondcpp ROS_NOBUILD in package bondcpp
+ No Makefile in package bondcpp
+[rosmake-5] Starting >>> nodelet [ make ]                                       
+[rosmake-4] Finished <<< roslaunch ROS_NOBUILD in package roslaunch
+ No Makefile in package roslaunch
+[rosmake-1] Starting >>> rostest [ make ]                                       
+[rosmake-1] Finished <<< rostest ROS_NOBUILD in package rostest
+ No Makefile in package rostest
+[rosmake-5] Finished <<< nodelet ROS_NOBUILD in package nodelet
+ No Makefile in package nodelet
+[rosmake-1] Starting >>> topic_tools [ make ]                                   
+[rosmake-5] Starting >>> cv_bridge [ make ]                                     
+[rosmake-7] Starting >>> message_filters [ make ]                               
+[ rosmake ] [ make ] [ topic_tools: 0.0 sec ] [ c... [ 3 Active 46/56 Complete ][rosmake-5] Finished <<< cv_bridge ROS_NOBUILD in package cv_bridge
+ No Makefile in package cv_bridge
+[rosmake-7] Finished <<< message_filters ROS_NOBUILD in package message_filters
+ No Makefile in package message_filters
+[rosmake-1] Finished <<< topic_tools ROS_NOBUILD in package topic_tools
+ No Makefile in package topic_tools
+[rosmake-7] Starting >>> rosbag [ make ]                                        
+[rosmake-4] Starting >>> image_transport [ make ]                               
+[rosmake-4] Finished <<< image_transport ROS_NOBUILD in package image_transport
+ No Makefile in package image_transport
+[rosmake-4] Starting >>> camera_info_manager [ make ]                           
+[rosmake-7] Finished <<< rosbag ROS_NOBUILD in package rosbag
+ No Makefile in package rosbag
+[rosmake-6] Starting >>> rosmsg [ make ]                                        
+[ rosmake ] [ make ] [ camera_info_manager: 0.0 s... [ 2 Active 51/56 Complete ][rosmake-6] Finished <<< rosmsg ROS_NOBUILD in package rosmsg
+ No Makefile in package rosmsg
+[rosmake-4] Finished <<< camera_info_manager ROS_NOBUILD in package camera_info_manager
+ No Makefile in package camera_info_manager
+[rosmake-6] Starting >>> rosservice [ make ]                                    
+[rosmake-6] Finished <<< rosservice ROS_NOBUILD in package rosservice
+ No Makefile in package rosservice
+[rosmake-6] Starting >>> dynamic_reconfigure [ make ]                           
+[rosmake-6] Finished <<< dynamic_reconfigure ROS_NOBUILD in package dynamic_reconfigure
+ No Makefile in package dynamic_reconfigure
+[rosmake-6] Starting >>> april_pro [ make ]                                     
+[rosmake-6] Finished <<< april_pro ROS_NOBUILD in package april_pro
+ No Makefile in package april_pro
+[ rosmake ] Results:                                                            
+[ rosmake ] Built 56 packages with 0 failures.                                  
+[ rosmake ] Summary output to directory                                         
+[ rosmake ] /home/odroid/.ros/rosmake/rosmake_output-20170809-144452            
